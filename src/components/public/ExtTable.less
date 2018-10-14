@@ -1,0 +1,67 @@
+.container {
+    :global {
+        .ant-table-content {
+            .ant-table-body,
+            .ant-table-fixed {
+                th,
+                td {
+                    text-align: center;
+                }
+            }
+        }
+        .ant-table-small>.ant-table-content table {
+            >.ant-table-thead>tr>th {
+                // background: #22c6c8 !important;
+                // background: #347AB6 !important;
+                // color: #FFF;
+                background: #EFEFEF !important;
+                // color: #6B7074;
+            }
+            .ant-table-tbody>tr>td {
+                padding: 8px 2px !important;
+            }
+        }
+        .ant-form-item {
+            margin-bottom: 0px;
+        }
+        .ant-card-body {
+            padding: 18px 24px;
+        }
+    }
+    ul {
+        margin-bottom: 0px !important;
+    }
+    // a {
+    //     color: #347AB6;
+    // }
+}
+
+.tableOperations {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.evenRow {
+    background-color: white;
+}
+
+.oddRow {
+    background-color: #F9F9F9;
+}
+
+.checkList {
+    margin: 0 !important;
+    padding: 0 !important;
+    :hover {
+        background-color: #FFF !important;
+    }
+    :global {
+        .ant-checkbox-group {
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+            padding: 5px;
+        }
+    }
+}

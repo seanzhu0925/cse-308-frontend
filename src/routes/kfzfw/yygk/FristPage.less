@@ -1,0 +1,81 @@
+@import '~antd/lib/style/themes/default.less';
+@import '../../../utils/utils.less';
+.cardtitel {
+    :global {
+        .ant-card-head {
+            background-color: #22c6c8;
+            .ant-card-head-wrapper {
+                .ant-card-head-title {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.cardAvatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+}
+
+.cardplafam {
+    :global {
+        .ant-list-item-meta {
+            align-items: center;
+            display: flex;
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
+    }
+}
+
+.cardList {
+    background-color: #F0F2F5;
+    :global {
+        .ant-list-something-after-last-item .ant-list-item:last-child {
+            border-bottom: 0;
+        }
+    }
+    .card {
+        :global {
+            .ant-card-meta-title {
+                margin-bottom: 12px;
+                &>a {
+                    color: @heading-color;
+                    display: inline-block;
+                    max-width: 100%;
+                }
+            }
+            .ant-card-actions {
+                background: #f7f9fa;
+            }
+            .ant-card-body:hover {
+                .ant-card-meta-title>a {
+                    color: @primary-color;
+                }
+            }
+        }
+    }
+    .item {
+        height: 64px;
+    }
+    :global {
+        .ant-list .ant-list-item-content-single {
+            max-width: 100%;
+        }
+    }
+}
+
+.cardtitels {
+    :global {
+        .ant-card-head {
+            background-color: #fff;
+            .ant-card-head-wrapper {
+                .ant-card-head-title {
+                    color: gray;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,112 @@
+.container {
+    :global {
+        .ant-input-group-addon {
+            width: 93px;
+            padding: 0;
+            margin-bottom: 5px;
+            border-color: #FFF;
+        }
+        .ant-modal-content {
+            .ant-modal-header {
+                .ant-modal-title {
+                    text-align: center;
+                }
+            }
+            .ant-modal-body {
+                background-color: #F8F9FB;
+                .ant-tabs-card {
+                    // background-color: #FFF;
+                    .ant-tabs-nav-scroll {
+                        background-color: #F8F9FB;
+                    }
+                    .ant-tabs-content {
+                        // border:1px solid #e8e8e8;
+                        border-top: none;
+                        margin-top: -16px;
+                        .ant-tabs-tabpane {
+                            // background: #fff;
+                            padding: 16px;
+                        }
+                    }
+                    .ant-tabs-bar {
+                        border-bottom: 1px solid #e8e8e8;
+                        .ant-tabs-tab {
+                            border-color: transparent;
+                            background: transparent;
+                        }
+                        .ant-tabs-tab-active {
+                            border: 1px solid #e8e8e8;
+                            background: #fff; // color: #000;
+                        } // .ant-tabs-tab:hover {
+                        //     color: #000;
+                        // }
+                    }
+                    .ant-tabs-content {
+                        .ant-tabs-tabpane {
+                            padding: 0
+                        }
+                        input {
+                            height: 40px;
+                            line-height: 40px;
+                        }
+                        .ant-btn {
+                            height: 40px;
+                        }
+                        .ant-btn-background-ghost.ant-btn-primary {
+                            border-color: #41c9bf;
+                            color: #41c9bf;
+                        }
+                    }
+                }
+            }
+            .ant-modal-footer {
+                .ant-btn:nth-child(2) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.abledbtn {
+    cursor: pointer;
+    width: 93px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -1px;
+    background-color: #09cda7;
+    color: white;
+    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
+}
+
+.disabledbtn {
+    cursor: not-allowed;
+    width: 93px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -1px;
+    background-color: #EFEFEF;
+    color: #BEBEBE;
+    border-radius: 0 5px 5px 0;
+    border-radius: 5px;
+}
+
+//上传按钮样式
+.uploadbotton {
+    :global {
+        .ant-input-group-addon {
+            background-color: #09cda7;
+            border: 1px solid #09cda7;
+        }
+    }
+}
+
+.uploadbottons {
+    :global {
+        .ant-input-group-addon {
+            background-color: #09cda7;
+            border: 1px solid #09cda7;
+        }
+    }
+}

@@ -1,0 +1,75 @@
+.container {
+    width: '100%';
+    :global {
+        .ant-input-group-addon {
+            width: 93px;
+            height: 40px;
+            padding: 0;
+            margin-bottom: 5px;
+            border-color: #FFF;
+        }
+        .ant-btn-primary:not(:disabled) {
+            background-color: #09cda7;
+            border-color: #09cda7;
+        }
+        .ant-btn:not(.ant-btn-primary):not(:disabled):focus,
+        .ant-btn:not(.ant-btn-primary):not(:disabled):hover {
+            border-color: #09cda7;
+            color: #09cda7;
+        }
+        .ant-radio-wrapper:hover {
+            .ant-radio-inner {
+                border-color: #09cda7;
+            }
+        }
+        input {
+            height: 40px;
+        }
+        .ant-radio-inner {
+            border-color: #09cda7;
+        }
+        .ant-radio-inner:after {
+            background-color: #09cda7;
+        }
+        .ant-btn-background-ghost.ant-btn-primary {
+            border-color: #41c9bf;
+            color: #41c9bf;
+        }
+    }
+}
+
+.abledbtn {
+    cursor: pointer;
+    width: 93px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -1px;
+    background-color: #09cda7;
+    color: white;
+    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
+}
+
+.disabledbtn {
+    cursor: not-allowed;
+    width: 93px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -1px;
+    background-color: #EFEFEF;
+    color: #BEBEBE;
+    border-radius: 0 5px 5px 0;
+}
+
+.input {
+    position: relative;
+}
+
+.input:before {
+    position: absolute;
+    left: -10px;
+    content: "*";
+    color: #f5222d;
+    font-size: 14px;
+    font-family: SimSun
+}

@@ -1,0 +1,37 @@
+.menuOpen {
+    :global {
+        .ant-tabs-bar {
+            width: calc(~"100% - 295px");
+            position: fixed;
+            top: 72px;
+            z-index: 9;
+            background-color: #F0F2F5;
+            padding-top: 8px;
+        }
+        .ant-layout-footer {
+            position: fixed;
+            width: calc(~"100% - 256px");
+            bottom: 0;
+            padding: 0;
+        }
+    }
+}
+
+.menuClose {
+  :global {
+      .ant-tabs-bar {
+          width: calc(~"100% - 119px");
+          position: fixed;
+          top: 72px;
+          z-index: 9;
+          background-color: #F0F2F5;
+          padding-top: 8px;
+      }
+      .ant-layout-footer {
+        position: fixed;
+        width: calc(~"100% - 80px");
+        bottom: 0;
+        padding: 0;
+    }
+  }
+}

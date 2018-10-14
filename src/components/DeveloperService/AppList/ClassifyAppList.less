@@ -1,0 +1,65 @@
+* {
+    margin:0; 
+    padding:0;
+} 
+.appList { 
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #fff;
+    padding: auto;
+    
+    //float: right;;
+     
+    li {    
+        list-style:none; /* 将默认的列表符号去掉 */
+        width: 125px;
+        height: 125px; 
+        border: 1px solid #CBCBCB;
+        border-radius: 5px;
+        margin: 30px 30px 0;
+        .appIcon{ 
+            height: 94px; 
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            img {
+                width: 75px;
+                height: 75px;
+            }
+        }
+        .appName{
+            background-color: #EFEFEF;
+            height:29px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+
+        }
+        .p{
+            text-overflow: ellipsis; 
+            overflow:hidden;
+            white-space: nowrap;
+            overflow:hidden;
+            margin-bottom:0em;
+        }
+
+    }
+    li:hover {
+        background:#EFEFEF;
+        text-decoration:none;
+    }
+    
+}
+.pagination{ 
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    width: 100% 
+}
+.dividerClass{
+    height: 300px;
+}

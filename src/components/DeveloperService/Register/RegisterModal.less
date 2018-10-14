@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    :global {
+        .ant-modal-body {
+            background-color: #F8F9FB;
+        }
+    }
+}
+
+.types {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    ul {
+        margin-left: 0;
+    }
+    li {
+        text-align: center;
+        list-style: none;
+        cursor: pointer;
+        div {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        .person {
+            border: 2px solid #c24040;
+        }
+        .company {
+            border: 2px solid #6a9dd2;
+        }
+        .police {
+            border: 2px solid #329c6c;
+        }
+    }
+}

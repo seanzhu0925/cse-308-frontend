@@ -7,6 +7,13 @@
 # BlueJ files
 *.ctxt
 
+# library files
+node_modules
+
+*.lock
+*.lock.json
+*.md
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
